@@ -1,10 +1,11 @@
 import React from 'react'
+import {Nav} from './Navbar.elements'
 
 function Navbar() {
     return (
-        <div>
-            <h1>My Navbar</h1>
-        </div>
+        <>
+        <Nav>Test</Nav>
+        </>
     )
 }
 
