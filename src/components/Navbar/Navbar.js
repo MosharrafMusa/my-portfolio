@@ -1,10 +1,18 @@
 import React from 'react'
-import {Nav} from './Navbar.elements'
+import {Nav, NavbarContainer} from './Navbar.elements'
 
 function Navbar() {
     return (
         <>
-        <Nav>Test</Nav>
+        <Nav>
+        <NavbarContainer>
+            <NavLogo to='/'>
+                <NavIcon/>
+                UlTRA
+            </NavLogo>
+        </NavbarContainer>
+
+       </Nav>
         </>
     )
 }
