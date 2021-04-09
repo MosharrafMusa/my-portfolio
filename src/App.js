@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <TopBanner/>
-      <h2>Welcome</h2>
     </div>
   );
 }
