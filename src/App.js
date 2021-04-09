@@ -1,10 +1,11 @@
 
 import './App.css';
-
+import TopBanner from './components/TopBanner/TopBanner';
 function App() {
   return (
     <div className="App">
-      <h2>welcome to my app</h2>
+      <TopBanner/>
+      <h2>Welcome</h2>
     </div>
   );
 }
