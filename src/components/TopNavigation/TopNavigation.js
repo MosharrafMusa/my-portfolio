@@ -9,6 +9,7 @@ const TopNavigation = () => {
     const [navbarLogo, setNavbarLogo] = useState([whiteLogo]);
     const [navbarBack, setNavbarBack] = useState("navBackground")
     const [navbarItem, setNavbarItem] = useState("navItem")
+    const [navVarient, setNavVarient] = useState("dark")
 
     const onScroll=()=>{
         if(window.scrollY>100){
@@ -16,12 +17,14 @@ const TopNavigation = () => {
             setNavbarLogo([blueLogo])
             setNavbarBack("navBackgroundScroll")
             setNavbarItem("navItemScroll")
+            setNavVarient("light")
         }
         else if (window.scrollY<100){
             setScrollState("navTitle")
             setNavbarLogo([whiteLogo])
             setNavbarBack("navBackground")
             setNavbarItem("navItem")
+            setNavVarient("dark")
         }
     }
 
@@ -31,7 +34,7 @@ const TopNavigation = () => {
 
     return (
         <>
-  <Navbar className={ navbarBack} fixed = "top" collapseOnSelect expand="lg" variant="dark">
+  <Navbar varient={navVarient} className={ navbarBack} fixed = "top" collapseOnSelect expand="lg">
   <Navbar.Brand className={scrollState}><img alt="logo" src={navbarLogo}/> Mosharraf Musa</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
