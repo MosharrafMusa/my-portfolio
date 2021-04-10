@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
+import {fafacebook, faFontAwesome, faTwitter} from '@fontawesome/free-brands-svg-icons'
 
 const Footer = () => {
     return (
@@ -8,8 +9,8 @@ const Footer = () => {
             <Row>
                 <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                     <h1 className="footerTitle">Follow Me</h1>
-                    <a href="#">facebook</a><br/>
-                    <a href="#">tweeter</a>
+                    <a href="#"><FontAwesomeIcon icon={fafacebook}/>facebook</a><br/>
+                    <a href="#"><FontAwesomeIcon icon={fafacebook}/>twitter</a>
                 </Col>
                 <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                 <h1 className="footerTitle">Address</h1>
