@@ -1,5 +1,6 @@
 
 import './App.css';
+import RecentProjects from './components/RecentProjects/RecentProjects';
 import TopBanner from './components/TopBanner/TopBanner';
 import TopNavigation from './components/TopNavigation/TopNavigation';
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <TopNavigation/>
       <TopBanner/>
+      <RecentProjects/>
     </div>
   );
 }

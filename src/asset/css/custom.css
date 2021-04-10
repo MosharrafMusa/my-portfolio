@@ -1,3 +1,16 @@
+.sectionGap {
+  margin-top: 5rem;
+}
+
+.sectionTitle {
+  color: #4c9ded;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-family: "Montserreat", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .topFixedBanner {
   background-image: url("../image/banner.jpg");
   min-height: 500px;
@@ -43,4 +56,59 @@
   color: #0073e6 !important;
   font-weight: 700;
   font-size: 24px;
+}
+
+.navBackground {
+  -webkit-transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+  background-color: rgba(00, 00, 00, 0.1) !important;
+}
+
+.navBackgroundScroll {
+  -webkit-transition: background-color 400ms linear;
+  -moz-transition: background-color 400ms linear;
+  -o-transition: background-color 400ms linear;
+  transition: background-color 400ms linear;
+  background-color: #ffffff !important;
+}
+
+.navItem {
+  font-size: 16px;
+  text-decoration: none !important;
+  font-family: "Montserreat", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.navItemScroll {
+  font-size: 16px;
+  text-decoration: none !important;
+  font-family: "Montserreat", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.projectCard {
+  border-radius: 2px;
+  border: none !important;
+  margin: 2px 2px 2px 2px;
+  box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+}
+
+.projectCard:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 115, 230, 0.2);
+}
+
+.projectCardTitle {
+  font-family: "Montserreat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.projectCardDes {
+  font-family: "RaleWay", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
