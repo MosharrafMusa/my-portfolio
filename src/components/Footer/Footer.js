@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import {fafacebook, faFontAwesome, faTwitter} from '@fontawesome/free-brands-svg-icons'
+
 
 const Footer = () => {
     return (
@@ -9,13 +9,13 @@ const Footer = () => {
             <Row>
                 <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                     <h1 className="footerTitle">Follow Me</h1>
-                    <a href="#"><FontAwesomeIcon icon={fafacebook}/>facebook</a><br/>
-                    <a href="#"><FontAwesomeIcon icon={fafacebook}/>twitter</a>
+                    <a href="#"><i className='fab fa-facebook'/> facebook</a><br/>
+                    <a href="#"><i className='fab fa-twitter'/> twitter</a>
                 </Col>
                 <Col lg={3} md={6} sm={12} className="p-5 text-justify">
                 <h1 className="footerTitle">Address</h1>
-                    <p>mosharrafny@gmail.com</p><br/>
-                    <p>+1 (347) 547 8929</p>
+                    <p> <i className='fa fa-envelope'/> mosharrafny@gmail.com</p><br/>
+                    <p><i className='fa fa-phone'/> +1 (347) 547 8929</p>
 
                 </Col>
                 <Col lg={3} md={6} sm={12} className="p-5 text-justify">
