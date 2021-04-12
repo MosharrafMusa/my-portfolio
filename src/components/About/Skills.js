@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Row, Col, Card,Image} from 'react-bootstrap';
+import {Container, Row, Col,Image, ListGroup} from 'react-bootstrap';
 import { BarChart, Bar,ResponsiveContainer, XAxis,Tooltip } from 'recharts';
 import Details from '../../asset/image/mhm1.png';
 import Adapt from '../../asset/image/mhm2.png';
@@ -11,10 +11,10 @@ const Skills = () => {
     const data=([
         {Technology:'Javacsript', Strength: 100},
         {Technology:'React', Strength: 80},
-        {Technology:'Javacsript', Strength: 100},
-        {Technology:'Javacsript', Strength: 100},
-        {Technology:'Javacsript', Strength: 100},
-        {Technology:'Javacsript', Strength: 100},
+        {Technology:'Redux', Strength: 100},
+        {Technology:'NodeJS', Strength: 100},
+        {Technology:'PostgreSql', Strength: 100},
+        {Technology:'Python', Strength: 100},
     ]);
     const blue = "rgba(0,115,230,0.8)"
     return (
@@ -44,25 +44,67 @@ const Skills = () => {
         </Container>
         <Container className="sectionGap">
             <Row>
-                <Col sm={12} md ={6} lg ={4}>
-                <Image src={Details} className="centerImage" />
-                <h4>Details Oriented</h4>
-                <p>Web development is all about the details. As a detail oriented person, I have patience and determination to explore the problem and Proactive attitude that focuses on creating ideas and plans for correcting issues.
-                </p>
-                </Col>
-                <Col sm={12} md ={6} lg ={4}>
-                <Image src={Adapt} className="centerImage" />
-                <h4>Ability To Adapt</h4>
-                <p>In the field of web development, the frameworks and tools are changing and updating at a rapid pace, so being able to adapt quickly and work well with others is more important than knowing any particular technology.
-                </p>
-                </Col>
-                <Col sm={12} md ={6} lg ={4}>
-                <Image src={Critical} className="centerImage" />
-                <h4>Critical Thinking</h4>
-                <p>A successful web developer must need the critical thinking quality. My critical thinking ability helps to deconstruct a problem into its base components and figure out the most effective way to solve it.
-                </p>
-                </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Details Oriented
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Thirst for Knowledge
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Active listener
+            </ListGroup.Item>
+            </ListGroup>
+       
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Flexibility and Adaptability
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Criticla Thinking
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Self Motivated
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Have Patience
+            </ListGroup.Item>
+            </ListGroup>
+       
+            </Col>
+            <Col sm={12} md ={6} lg ={3}>
+            <ListGroup>
+            <ListGroup.Item action variant="light">
+            Details Oriented
+            </ListGroup.Item>
+            </ListGroup>
+            </Col>
             </Row>
+           
         </Container>
         </>
     )
