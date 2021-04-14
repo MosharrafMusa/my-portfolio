@@ -142,18 +142,18 @@
 
 .topPageOverlay {
   position: absolute;
-  min-height: 500px;
+  min-height: 300px;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
 
 .topPageContent {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .topPageSubTitle {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 28px;
 }

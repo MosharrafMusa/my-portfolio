@@ -5,7 +5,7 @@ const PageTop = () => {
         <>
             <Container fluid={true} className="topFixedPage p-0">
             <div className= "topPageOverlay">
-                <Container className="topContent">
+                <Container className="topPageContent">
                     <Row>
                         <Col className="text-center">
                        
