@@ -1,5 +1,7 @@
 import React from 'react'
 import {Col,Button, Card, Container, Row, CardColumns} from 'react-bootstrap';
+import Project1 from '../../asset/image/droom.png';
+
 
 
 const RecentProjects = () => {
@@ -20,7 +22,7 @@ const RecentProjects = () => {
                     </Card.Body>
                 </Card>
                 <Card className="projectCard">
-                    <Card.Img variant="top" src="https://mosharrafmusa.com/images/responsive.PNG" />
+                    <Card.Img variant="top" src={Project1} />
                     <Card.Body>
                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                         <Card.Text className="projectCardDes">
