@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Navbar, Nav} from 'react-bootstrap';
+import {NavLink} from 'react-router-dom';
 import whiteLogo from '../../asset/image/logo.png';
 import blueLogo from '../../asset/image/mylogo.png';
 import '../../asset/css/custom.css'
@@ -41,10 +42,10 @@ const TopNavigation = () => {
     <Nav className="mr-auto">
     </Nav>
     <Nav>
-      <Nav.Link className={navbarItem} href="#deets">Home</Nav.Link>
-      <Nav.Link className={navbarItem} href="#deets">Portfolio</Nav.Link>
-      <Nav.Link className={navbarItem} href="#deets">About</Nav.Link>
-      <Nav.Link className={navbarItem} href="#deets">Contact</Nav.Link>
+      <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} className={navbarItem} to="/">Home</NavLink></Nav.Link>
+      <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} className={navbarItem} to="/about">About</NavLink></Nav.Link>
+      <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} className={navbarItem} to="/portfolio">Portfolio</NavLink></Nav.Link>
+      <Nav.Link> <NavLink exact activeStyle={{color:'#00a8ee'}} className={navbarItem} to="/contact">Contact</NavLink></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
