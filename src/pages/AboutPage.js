@@ -2,9 +2,9 @@ import React from 'react'
 
 const AboutPage = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+           <h1>this is about page</h1> 
+        </>
     )
 }
 
