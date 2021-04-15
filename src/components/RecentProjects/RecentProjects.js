@@ -1,6 +1,6 @@
 import React from 'react'
 import {Col,Button, Card, Container, Row, CardColumns} from 'react-bootstrap';
-import Project1 from '../../asset/image/droom.png';
+import Project1 from '../../asset/image/droom.PNG';
 
 
 
