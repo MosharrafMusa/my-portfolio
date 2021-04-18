@@ -54,7 +54,7 @@ const Skills = () => {
             <Col sm={12} md ={6} lg ={3}>
             <ListGroup>
             <ListGroup.Item action variant="light">
-            Thirst for Knowledge
+            Eager to learn
             </ListGroup.Item>
             </ListGroup>
             </Col>
